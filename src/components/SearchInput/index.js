@@ -1,7 +1,7 @@
 import React from "react";
 import "./style.css";
 
-export default (props) => {
+function SearchInput (props) {
     
   return (
     <div className="searchInput form-inline">
@@ -22,3 +22,5 @@ export default (props) => {
     </div>
   );
 }
+
+export default SearchInput;

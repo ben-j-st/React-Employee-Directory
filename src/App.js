@@ -1,5 +1,4 @@
 import React from 'react';
-import './App.css';
 import API from "./utils/API";
 import Header from "./components/Header";
 import Table from"./components/Table";

@@ -25,21 +25,11 @@ A React based application, that allows the user to sort through a list of employ
 
 ## Installation
 
-step 1 - user will need to clone down the repo into a desired folder using: git clone 
-    on this address https://github.com/ben-j-st/React-Employee-Directory
-
-step 2 - user will need to use the code: npm i  
-    to install all dependencies listed in the package.json file
-
-step 3 - user can then run the file from terminal on there server.js file by using the code:
-    npm run
-    
-step 4 - Application will be deployed on the local host 8080
-
+Run npx create-react-app employee-directory locally and replace the src folder with this project's src.
 
 ## Usage
 
-This web application allows the user to search for a specific first Name from a list of employees, and then sort the users alphabetically based on a specific category list in the drop down menu 
+Use npm start to run application
 
 ## Licence 
 

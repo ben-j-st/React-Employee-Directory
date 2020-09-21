@@ -1,25 +1,22 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import './App.css';
-import API from "./utils/API"
+import API from "./utils/API";
+import Header from "./components/Header";
+import Table from"./components/Table";
+import Filters from "./components/Filter";
 
 function App() {
 
-  const employee = API.getEmployees()
+  const employees = API.getEmployees()
 
-  const [results, setResults] = useState([]);
+  const [results, setResults] = React.useState([]);
 
-  
-  useEffect(() => {
-    // a list of sorted employees
-    const sortedEmployees = sortEmployees(EmployeeData, sortState)
 
-    // a list of filtered employees
-    const filteredAndSorted
-  }, [sortState, filterState])
   return (
-    // put components inside here
-    <div className="App">
-
+    <div>
+      <Header />
+      <Filters setResults={setResults}/>
+      <Table employees={employees} results={results}/> 
     </div>
   );
 }

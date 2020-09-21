@@ -1,7 +1,6 @@
 import React from "react";
 import Row from "../Row";
 import "./style.css";
-
 // object destructuring
 function Table({employees, results}) {
 

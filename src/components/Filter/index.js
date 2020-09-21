@@ -1,10 +1,10 @@
 import React from "react";
 import SearchInput from '../SearchInput';
-import SortOptions from '../SortOptions';
+import Dropdown from '../Dropdown';
 import API from "../../utils/API";
 import "./style.css";
 
-export default ({setResults}) => {
+function Filter ({setResults}) {
 
     const [state, setState] = React.useState ({
         search: "",
@@ -50,7 +50,7 @@ export default ({setResults}) => {
                 />
             </div>
             <div className="sort-col">
-                <SortOptions 
+                <Dropdown 
                 handleSortSelect={handleSortSelect}
                 />
             </div>
@@ -58,3 +58,4 @@ export default ({setResults}) => {
     );
 }
 
+export default Filter;

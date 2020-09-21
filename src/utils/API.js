@@ -18,11 +18,11 @@ export default{
     },
 
     sortUsers:function(sortKey) {
-        let newEmpArr;
+        let newEmployeeArray;
 
         // Sort by first name
         if (sortKey === "firstName") {
-            newEmpArr = employeeData.sort(function(a, b){
+            newEmployeeArray = employeeData.sort(function(a, b){
                 if (a.name.first.toUpperCase() > b.name.first.toUpperCase()) {
                     return 1
                 } else {
@@ -30,12 +30,12 @@ export default{
                 }
             })
     
-            return newEmpArr;
+            return newEmployeeArray;
         }
 
         // sort by last name
         if (sortKey === "lastName") {
-            newEmpArr = employeeData.sort(function(a, b){
+            newEmployeeArray = employeeData.sort(function(a, b){
                 if (a.name.last.toUpperCase() > b.name.last.toUpperCase()) {
                     return 1
                 } else {
@@ -43,21 +43,46 @@ export default{
                 }
             })
     
-            return newEmpArr;
+            return newEmployeeArray;
         }
 
-        // sort by location
-        if (sortKey === "location") {
-            newEmpArr = employeeData.sort(function(a, b){
-                if (a.location.state.toUpperCase() > b.location.state.toUpperCase()) {
+        // sort by gender
+        if (sortKey === "gender") {
+            newEmployeeArray = employeeData.sort(function(a, b){
+                if (a.gender.toUpperCase() > b.gender.toUpperCase()) {
                     return 1
                 } else {
                     return -1
                 }
             })
 
-            return newEmpArr;
+            return newEmployeeArray;
         }
         
+        // sort by Department
+        if (sortKey === "department") {
+            newEmployeeArray = employeeData.sort(function(a, b){
+                if (a.department.toUpperCase() > b.department.toUpperCase()) {
+                    return 1
+                } else {
+                    return -1
+                }
+            })
+
+            return newEmployeeArray;
+        }
+
+        // sort by job_title
+        if (sortKey === "jobTitle") {
+            newEmployeeArray = employeeData.sort(function(a, b){
+                if (a.job_title.toUpperCase() > b.job_title.toUpperCase()) {
+                    return 1
+                } else {
+                    return -1
+                }
+            })
+
+            return newEmployeeArray;
+        }
     }
 };

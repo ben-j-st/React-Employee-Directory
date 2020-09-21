@@ -63,6 +63,6 @@ Email: ben_j_stephens@hotmail.com
 
 ## Screenshot 
 
-![screenshot](./src/assets/Screenshot.PNG) 
+![screenshot](../../src/assets/Screenshot.PNG) 
 
 

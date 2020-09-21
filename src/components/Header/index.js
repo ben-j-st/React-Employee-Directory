@@ -6,7 +6,8 @@ function Header () {
         <div className="header">
             <div className="header-text">
                 <h1>Employee Directory</h1>
-                <p>Sort by name or use the search box to filter results.</p>
+                <p>Please Type In Employees Name Or Use The Sort Dropdown Menu To Sort Employees 
+                    Alphabetically By The Specified Category</p>
             </div>
         </div>
     )

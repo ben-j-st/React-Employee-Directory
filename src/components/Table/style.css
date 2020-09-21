@@ -1,0 +1,15 @@
+  
+.tableBlock {
+    width: 90%;
+    margin: auto;
+}
+
+thead {
+    background-color: aquamarine;
+    color: black;
+}
+
+thead tr th {
+    text-align: center;
+    text-transform: uppercase;
+}

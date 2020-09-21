@@ -1,68 +1,68 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# React Employee Directory
 
-## Available Scripts
+    
+<div align="right"><img alt="licence badge" src="https://img.shields.io/badge/licence-MIT-yellow"></div>
 
-In the project directory, you can run:
+## Description 
 
-### `npm start`
+A React based application, that allows the user to sort through a list of employees, by there first Name, if they want to sort the employees rather than search for a specific one, they can use the sort button to order the employees based on predefined categories.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Links
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+<a href="https://gentle-anchorage-18985.herokuapp.com/">Live Heroku Version</a>
 
-### `npm test`
+## Table of Contents
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* [Description](#Description)
+* [Installation](#Installation)
+* [Usage](#Usage)
+* [Licence](#Licence)
+* [Contributing](#Contributing)
+* [Tests](#Tests)
+* [Questions](#Questions)
+* [Screenshot](#Screenshot)
+* [Walkthrough](#Walkthrough-video)
 
-### `npm run build`
+## Installation
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+step 1 - user will need to clone down the repo into a desired folder using: git clone 
+    on this address https://github.com/ben-j-st/React-Employee-Directory
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+step 2 - user will need to use the code: npm i  
+    to install all dependencies listed in the package.json file
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+step 3 - user can then run the file from terminal on there server.js file by using the code:
+    npm run
+    
+step 4 - Application will be deployed on the local host 8080
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Usage
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+This web application allows the user to search for a specific first Name from a list of employees, and then sort the users alphabetically based on a specific category list in the drop down menu 
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Licence 
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+MIT
 
-## Learn More
+A short and simple permissive license with conditions only requiring preservation of copyright and license notices. Licensed works, modifications, and larger works may be distributed under different terms and without source code. see full licence at https://choosealicense.com/licenses/mit/
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Contributing 
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+was built based on specifications from trilogy.
 
-### Code Splitting
+## Tests
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+none at this time
 
-### Analyzing the Bundle Size
+## Questions
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+Github Username: <a href="https://github.com/ben-j-st">ben-j-st</a>
 
-### Making a Progressive Web App
+Email: ben_j_stephens@hotmail.com
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+## Screenshot 
 
-### Advanced Configuration
+![screenshot](./src/assets/Screenshot.PNG) 
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
 
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify

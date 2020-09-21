@@ -1,21 +1,21 @@
 .searchInput button{
     margin-left: 1rem;
-    border: 2px solid #cbc5af;
+    border: 2px solid lightslategray;
     background-color: transparent;
     color: black;
     padding-left: 1rem;
     padding-right: 1rem;
 }
 .searchInput button:hover {
-    background-color: #cbc5af;
+    background-color: aquamarine;
     color:black;
-    border: 2px solid #cbc5af;
+    border: 2px solid lightslategray;
 }
 
 .searchInput button:focus {
-    background-color: #cbc5af;
+    background-color: aquamarine;
     color:black;
-    border: 2px solid #cbc5af;
+    border: 2px solid lightslategray;
     outline:none;
     box-shadow:none;
 }

@@ -13,9 +13,6 @@ function Table({employees, results}) {
         } else {
             setEmployeeArray(employees);
         }
-
-        console.log("running");
-        
         // Dependencies - all used inside the function
     }, [setEmployeeArray, results, employees])
 
